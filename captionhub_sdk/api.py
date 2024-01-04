@@ -1,6 +1,6 @@
 import requests
 
-from caption import Caption
+from captionhub_sdk.caption import Caption
 from exceptions import CaptionNotFound
 
 class Captionhub:
