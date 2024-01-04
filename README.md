@@ -17,7 +17,7 @@ This project is a Python API client for Captionhub. It allows you to interact wi
 ### Usage
 
 1. Initialize the api using ```captionhub = Captionhub(api_key, api_url)```
-2. Use any of the methods described above. For example: ```captionhub.get_caption(video_id)``
+2. Use any of the methods described above. For example: ```captionhub.get_caption(video_id)```
 
 
 ### Dependencies
