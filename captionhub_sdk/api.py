@@ -1,7 +1,7 @@
 import requests
 
 from captionhub_sdk.caption import Caption
-from exceptions import CaptionNotFound
+from captionhub_sdk.exceptions import CaptionNotFound
 
 class Captionhub:
     def __init__(self, api_key, api_url):
