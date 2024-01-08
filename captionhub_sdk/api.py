@@ -23,7 +23,7 @@ class Captionhub:
         headers = {'Authorization': 'Token ' + self.api_key}
         response = requests.get(url, headers=headers)
         if response.status_code == 404:
-            raise False
+            return []
         return Caption(response.json()['captions'][0])
             
 
